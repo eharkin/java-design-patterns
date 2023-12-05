@@ -3,8 +3,6 @@
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 P
  src/main/solid/model/Square.java,2/0/20d50f3e2df082b5ed21a2d45a4db94babbc3e66
-T
-$src/main/solid/openclosed/Shape.java,f/6/f628542a3e7180f5bc128ecfabf9fa76608372e0
 f
 6src/main/solid/singleresponsibility/ShapesPrinter.java,f/a/fa178586370ccd21772f622a3a472599c69e3dfd
 N
