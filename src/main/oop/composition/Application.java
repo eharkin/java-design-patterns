@@ -1,12 +1,20 @@
 package main.oop.composition;
 
-public class Application {
+import java.util.ArrayList;
+import java.util.List;
 
+public class Application {
     public static void main(String[] args) {
-        Cat cat = new Cat(34, "Tess");
-        //using composition
-        Person per1 = new Person("Emm");
-        per1.setPet(cat);
-        System.out.printf("Person's Name %s, The Pets Detail is: %s", per1.getName(), per1.getPet().getName());
+        Book book1 = new Book("Biography", "Josh");
+        Book book2 = new Book("Science", "Tess");
+
+        List<Book> bookList = new ArrayList<>();
+
+        bookList.add(book1);
+        bookList.add(book2);
+
+        Library library = new Library(bookList);
+        library.getLibraryBooks().forEach(book -> System.out.printf(
+                "Name: %s  Author: %s", book.getName(), book.getAuthor()));
     }
 }
