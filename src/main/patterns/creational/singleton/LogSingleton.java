@@ -29,7 +29,7 @@ public class LogSingleton {
 
     private static synchronized LogSingleton getInstance() {
         // thread safety method for singleton
-        // for code smell purposes in sonar
+        // for code smell purposes in sonar we removed the double check locking
         if(_instance == null) {
             _instance = new LogSingleton();
         }
