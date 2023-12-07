@@ -1,6 +1,7 @@
 package main.patterns.creational.singleton;
 
 public enum LogLevel {
+
     TRACE(1),
     DEBUG(2),
     INFO(3),

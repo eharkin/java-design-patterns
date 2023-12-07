@@ -27,18 +27,15 @@ public class LogSingleton {
         }
     }
 
-    private static LogSingleton getInstance() {
-        // double check locking
+    private static synchronized LogSingleton getInstance() {
+        // thread safety method for singleton
+        // for code smell purposes in sonar
         if(_instance == null) {
-            // for thread safety purposes
-            synchronized (LogSingleton.class) {
-                if(_instance == null) {
-                    _instance = new LogSingleton();
-                }
-            }
+            _instance = new LogSingleton();
         }
         return _instance;
     }
+
 
     public void setLogLevel(LogLevel logLevel) {
         this.logLevel = logLevel;
@@ -66,7 +63,7 @@ public class LogSingleton {
 
         logSingleton1.setLogLevel(LogLevel.TRACE);
         logSingleton1.log(LogLevel.INFO, "INFO Message");
-        logSingleton1.log(LogLevel.DEBUG, "Debug Message");
+        logSingleton1.log(LogLevel.DEBUG, "DEBUG Message");
         logSingleton1.log(LogLevel.WARN, "WARN Message");
         logSingleton1.log(LogLevel.ERROR, "ERROR Message");
 
