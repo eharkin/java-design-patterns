@@ -62,19 +62,11 @@ $src/main/solid/openclosed/Shape.java,f/6/f628542a3e7180f5bc128ecfabf9fa7660837
 M
 src/main/dry/Application.java,b/8/b8d19632bca3ffba6c8fa7c0cd3f12cb9debaa11
 U
-%src/main/oop/abstraction/IAnimal.java,a/5/a5a0af563eb941cfe533252585213de81231ef81
-Q
-!src/main/oop/abstraction/Cat.java,8/7/87a4421d9c70f1bf331f4d3668353c99fe29c03e
-T
-$src/main/oop/abstraction/Animal.java,e/8/e83bcebe1e6eb692d348c6418546d5391b909015
-U
 %src/main/oop/inheritance/IAnimal.java,5/d/5d1d7072876f681ec65a938f664842cec4a2b23e
 T
 $src/main/oop/inheritance/Animal.java,e/8/e8ba03c8505c73204b3eda2502e962cd02fda1ac
 Q
 !src/main/oop/inheritance/Dog.java,e/6/e6f4ebea58faa4b5859fce7d9c3bc7b5d83ccb67
-Y
-)src/main/oop/abstraction/Application.java,3/1/3198b3b0cb1f53e2211a63f21ef42f41a7177498
 Y
 )src/main/oop/inheritance/Application.java,3/0/30c28baa9f3cf89fd7788abd875b441b2abf5b5a
 a
@@ -152,3 +144,9 @@ o
 ?src/main/patterns/creational/factory/payment/GooglePayment.java,8/5/85f5ad08d2c9042c53ab468969b746c294884676
 k
 ;src/main/patterns/creational/factory/computer/Computer.java,3/4/34184c56314e0dd508b84482daa1739bfcdad8db
+r
+Bsrc/main/patterns/creational/factory/computer/ComputerFactory.java,e/f/ef6b25d68457ac1d22c7a9beae93844ee8394f0d
+i
+9src/main/patterns/creational/factory/computer/Laptop.java,f/5/f536555727de9106d92711ae78dd58e8d6bb7c9c
+n
+>src/main/patterns/creational/factory/computer/Application.java,0/e/0e3c86263131f718e7ba0ea792f69317383962cc
